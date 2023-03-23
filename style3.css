@@ -4,6 +4,15 @@ body {
     padding: 0;
 }
 
+h1,
+h2 {
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+}
+
 .top-bar {
     background-color: #333;
     color: white;
@@ -12,4 +21,32 @@ body {
     font-weight: bold;
     font-size: 24px;
     padding: 8px;
+}
+
+.container {
+    max-width: 888px;
+    margin: auto;
+}
+
+
+.headline {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.subtittle {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.link-icons img {
+    width: 20px;
+    padding: 10px 10px 10px 0;
+    margin-top: 10px;
 }
